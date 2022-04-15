@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-modal": "^3.14.4",
     "validator": "^13.7.0",
     "webpack": "^5.72.0"
   },
