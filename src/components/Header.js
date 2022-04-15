@@ -10,7 +10,7 @@ const Header=(props)=>(
 );
 
 Header.defaultProps ={
-    title: 'Indecision App',
+    title: 'Cryptask Manager App',
     subtitle: 'Your simple task builder'
 }
 
