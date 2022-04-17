@@ -17,6 +17,26 @@
     margin: 0;
 }
 
+.header__logo {
+    color: inherit;
+    font-size: $xl-size;
+    margin: 0;
+}
+
+.header__logo > ion-icon {
+    pointer-events: none;
+}
+
+.header__sbs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__credits {
+    display: flex;
+    justify-content: end;
+}
+
 @media (min-width: $desktop-breakpoint) {
     .header {
         margin-bottom: $xl-size;
