@@ -19,7 +19,7 @@
 
 .header__logo {
     color: inherit;
-    font-size: $xl-size;
+    font-size: $l-size;
     margin: 0;
 }
 
@@ -40,5 +40,8 @@
 @media (min-width: $desktop-breakpoint) {
     .header {
         margin-bottom: $xl-size;
+    }
+    .header__logo {
+        font-size: $xl-size;
     }
 }
